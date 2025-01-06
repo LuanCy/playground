@@ -21,7 +21,7 @@ describe('Login', () => {
 
   it('Não deve logar com email incorreto', ()=> {
     cy.login('www.cyskills.com.br', 'showtime')
-    cy.noticeHave('O formato do e-mail está incorreto. Por favor, verifique e tente novamente!')
+    cy.noticeHave('O formata do e-mail está incorreto. Por favor, verifique e tente novamente!')
   })
 
   it('Não deve logar sem email', ()=> {
