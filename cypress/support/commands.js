@@ -33,6 +33,11 @@ Cypress.Commands.add('goHome', () => {
       .should('be.visible')
 })
 
+Cypress.Commands.add('doLogin', () =>{
+    cy.login('papito@cyskills.com.br', 'showtime')
+    cy.userLoggedIn()
+})
+
 Cypress.Commands.add('goTo', (route, title) => {
     cy.get(`nav a[href="${route}"]`)
         .click()
