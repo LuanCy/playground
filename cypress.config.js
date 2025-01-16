@@ -3,8 +3,9 @@ module.exports = {
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
-    baseUrl: 'https://playground.cyskills.com.br'
-    viewportWidth: 1920,
+    baseUrl: 'https://playground.cyskills.com.br',
     viewportHeight: 1080,
+    viewportWidth: 1920,
+   
   },
 };
